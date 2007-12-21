@@ -12,6 +12,7 @@ Group: Development/Other
 Source: %{name}-%{version}.tar.bz2
 Patch: %{name}-makefile.patch.bz2
 URL: http://www.linuxfocus.org/~guido/
+Buildroot: %{_tmppath}/%{name}-buildroot
 
 %description
 webgrep is a set of search utilities for web-masters. This package includes
