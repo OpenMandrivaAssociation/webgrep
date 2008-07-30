@@ -1,6 +1,6 @@
 %define name webgrep
 %define version 2.12
-%define release %mkrel 1
+%define release %mkrel 3
 
 
 Summary: Web page search utilities
