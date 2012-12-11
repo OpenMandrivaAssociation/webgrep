@@ -1,2 +1,3 @@
 sources:
-  "webgrep-2.12.tar.bz2:"	3023ca7f46be8467ce1ceeec4c30695b372de12b
+  "webgrep-2.12.tar.bz2": 3023ca7f46be8467ce1ceeec4c30695b372de12b
+  "webgrep-makefile.patch.bz2": feaf9f8ad489b78f498fd9f81ec1c17761765e40

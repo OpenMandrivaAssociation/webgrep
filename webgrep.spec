@@ -66,3 +66,48 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 %{_mandir}/man1/*
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 2.12-5mdv2010.0
++ Revision: 434735
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.12-4mdv2009.0
++ Revision: 261924
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.12-3mdv2009.0
++ Revision: 255844
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 2.12-1mdv2008.1
++ Revision: 129299
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import webgrep
+
+
+* Sat Aug 28 2004 Franck Villaume <fvill@freesurf.fr> 2.12-1mdk
+- 2.12
+
+* Mon Mar 17 2003 Lenny Cartier <lenny@mandrakesoft.com> 2.11-1mdk
+- regenerate patch0
+
+* Thu Jan 02 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 2.9-3mdk
+- build release
+- fix no-clean-section
+
+* Fri Aug 31 2001 Etienne Faure <etienne@mandrakesoft.com> 2.9-2mdk
+- rebuild
+
+* Wed Dec 27 2000 Geoffrey Lee <snailtalk@mandrakesoft.com> 2.9-1mdk
+- new and shiny source.
+- use our own optimizations.
+
+* Thu Oct 19 2000 Lenny Cartier <lenny@mandrakesoft.com> 2.7-1mdk
+- new in contribs
+- makefile patch
