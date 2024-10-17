@@ -11,7 +11,7 @@ License: GPL
 Group: Development/Other
 Source: %{name}-%{version}.tar.bz2
 Patch: %{name}-makefile.patch.bz2
-URL: http://www.linuxfocus.org/~guido/
+URL: https://www.linuxfocus.org/~guido/
 Buildroot: %{_tmppath}/%{name}-buildroot
 
 %description
