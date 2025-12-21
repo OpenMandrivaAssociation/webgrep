@@ -14,6 +14,7 @@ Patch: %{name}-makefile.patch.bz2
 URL: https://www.linuxfocus.org/~guido/
 Buildroot: %{_tmppath}/%{name}-buildroot
 
+BuildRequires:	make
 %description
 webgrep is a set of search utilities for web-masters. This package includes
 7 utilities:
